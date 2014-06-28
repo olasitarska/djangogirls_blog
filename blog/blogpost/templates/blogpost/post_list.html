@@ -1,7 +1,0 @@
-{% load future %}
-
-<ul>
-{% for post in posts %}
-    <li><a href="{% url 'blogpost.views.post_detail' pk=post.pk %}">{{ post.title }}</a> <small>(published: {{ post.published_date|date:'d-m-Y' }})</small></li>
-{% endfor %}
-</ul>
