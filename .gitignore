@@ -8,3 +8,4 @@ dist
 *.pyc
 .Python
 db.sqlite3
+.DS_Store
